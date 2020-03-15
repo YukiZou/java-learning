@@ -17,3 +17,26 @@
 * String适用于少量的字符串操作，不要在for循环里面用String进行字符串拼接
 * StringBuilder非线程安全，适合在单线程情况下使用（字符串拼接推荐用StringBuilder）
 * StringBuffer是线程安全的，适合在多线程情况下使用
+
+### java基本数据类型
+- 整型
+    - byte 1字节，8位， -128到127
+    - short 2字节，16位
+    - int 4字节，32位，20亿范围，默认的
+    - long 8字节，64位
+- 浮点型
+    - float 4字节，单精度
+    - double 8字节，双精度，默认的
+- 字符
+    - char 2字节
+- 布尔型
+    - boolean 1字节
+
+### 隐式类型转换
+- java支持不同类型的隐式转换，但只能从低转到高（从高到低需要显式转换，还可能丢失精度，故不推荐）
+    - byte --> short --> int --> long --> float --> double
+    - char --> int
+
+### java反射
+
+
