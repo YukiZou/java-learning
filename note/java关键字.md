@@ -36,7 +36,10 @@
 - java支持不同类型的隐式转换，但只能从低转到高（从高到低需要显式转换，还可能丢失精度，故不推荐）
     - byte --> short --> int --> long --> float --> double
     - char --> int
-
-### java反射
-
-
+### java反射（参考BookTest.java）
+- 获取Class类对象的三种方式
+    - Class<?> classObj = Class.forName("");
+    - Class classObj = Book.class();
+    - Book bookObj = new Book(); Class classObj = bookObj.getClass();
+- 根据Class类对象获取指定类的一些方法和属性
+- 待补充（todo）
