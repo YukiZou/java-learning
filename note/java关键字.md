@@ -42,4 +42,11 @@
     - Class classObj = Book.class();
     - Book bookObj = new Book(); Class classObj = bookObj.getClass();
 - 根据Class类对象获取指定类的一些方法和属性
-- 待补充（todo）
+- 待补充:https://blog.csdn.net/ThinkWon/article/details/100128361
+
+### java语法糖
+- 语法糖：即糖衣语法，语法糖就是对现有语法的封装，让程序更加简洁、更可读
+- https://blog.csdn.net/ThinkWon/article/details/100128361
+
+
+
